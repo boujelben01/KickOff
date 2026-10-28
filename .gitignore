@@ -1,0 +1,27 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dépendances
+node_modules/
+vendor/
+
+# Builds et caches
+dist/
+build/
+.vite/
+coverage/
+
+# Éditeur et système
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Outils
+.omc/
+.vercel/
